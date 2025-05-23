@@ -68,4 +68,10 @@ class stack
                 cout << endl;
             }// return the value of the top node
         }
+
+        // isEmpty operation: check if the stack is empty
+        bool isEmpty()
+        {
+            return top == NULL; //return true if the top pointer is null
+        }
 };
