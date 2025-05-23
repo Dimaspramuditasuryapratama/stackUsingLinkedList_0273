@@ -75,3 +75,10 @@ class stack
             return top == NULL; //return true if the top pointer is null
         }
 };
+
+int main()
+{
+    stack stack;
+
+    
+}
